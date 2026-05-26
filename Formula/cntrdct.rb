@@ -1,24 +1,24 @@
 class Cntrdct < Formula
   desc "Evidence-based contradiction linter for Rust and Python"
   homepage "https://github.com/ktrysmt/cntrdct"
-  version "0.5.2"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ktrysmt/cntrdct/releases/download/v0.5.2/cntrdct-v0.5.2-aarch64-apple-darwin.tar.gz"
-      sha256 "d68b1b542db32d7a42a280242b6d10c0f35d589e9505de1880f249a84ad013c8"
+      url "https://github.com/ktrysmt/cntrdct/releases/download/v0.6.0/cntrdct-v0.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "9e1bdae9a20f0ddd9b95f8c171afc2985b02170a924d4ae9a884f726906aa586"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ktrysmt/cntrdct/releases/download/v0.5.2/cntrdct-v0.5.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "db51c09cf62eb41d2c469d79858adb577b1704e8ffb182f9e4403eaa0f4db5e7"
+      url "https://github.com/ktrysmt/cntrdct/releases/download/v0.6.0/cntrdct-v0.6.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9c15264f1f20d1704bebcb6558bd88d64c3cda223a9b8a9c7362ca3a1d9bd489"
     end
     on_arm do
-      url "https://github.com/ktrysmt/cntrdct/releases/download/v0.5.2/cntrdct-v0.5.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a00fdc59739751e76fef7bb14a4837ce83ba075feab6fda4df1423217103d7d9"
+      url "https://github.com/ktrysmt/cntrdct/releases/download/v0.6.0/cntrdct-v0.6.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "944f1ddf39fd160e7b3b13455804403c5ed85324cd9752624cd11fae78f4e369"
     end
   end
 
